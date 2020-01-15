@@ -1,6 +1,6 @@
-const Employee = require("./employee")
+const employee = require("./employeeclass")
 
-class manager extends Employee {
+class manager extends employee {
     constructor(name,id, email) {
         super(name, id, email)
         this.office_number = office_number;
